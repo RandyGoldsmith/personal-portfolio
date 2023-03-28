@@ -6,4 +6,4 @@
 <img
      src="pics/ProjectsNContact.png"
      alt="wirefraes in Figma"
-     style="width: 600px; height: 500px; float: right">
+     style="width: 600px; height: 500px; display: flex; justify-content: flex-end">
