@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/*** container not working ***/
+.container {
+  margin: 0 auto;
+  width: 1250px;
+}
+
+.margin--top {
+  margin-top: 5.2rem;
+}
+
+.margin--btm {
+  padding-bottom: 5.2rem;
+}
+
 /**** Heading ****/
 
 .main-header {
@@ -32,4 +46,30 @@ li a {
 h1 {
   text-align: center;
   margin: 20px 0 20px 0;
+}
+
+/****---------------****/
+/**** ABOUT ME PAGE ****/
+/****---------------****/
+
+.tech-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  row-gap: 9.6rem;
+}
+
+.tech-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  column-gap: 25px;
+  row-gap: 40px;
+  border: 2px solid black;
+  padding: 2.4rem;
+}
+
+.tech-description {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
