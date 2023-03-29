@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**** Heading ****/
+
+.main-header {
+  margin: 25px 20px 0 0;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-menu-item {
+  margin-right: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+/**** H1 Title ****/
+h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
