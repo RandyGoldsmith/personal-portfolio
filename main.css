@@ -18,6 +18,13 @@
   padding-bottom: 5.2rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+}
 /**** Heading ****/
 
 .main-header {
@@ -42,8 +49,8 @@ li a {
   color: black;
 }
 
-/**** H1 Title ****/
-h1 {
+/**** H1 Titles ****/
+.about-me-h1 {
   text-align: center;
   margin: 20px 0 20px 0;
 }
@@ -72,4 +79,32 @@ h1 {
 .tech-description {
   font-size: 1.2rem;
   line-height: 1.8rem;
+}
+
+/****---------------****/
+/**** HOME PAGE ****/
+/****---------------****/
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+  padding: 0 3.2rem;
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+.heading-primary {
+  font-size: 3.2rem;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
 }

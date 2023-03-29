@@ -4,32 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" src="main.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <title>Randy's Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/about.html">About</a></li>
-          <li><a href="pages/projects.html">Projects</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
+        <ul class="main-navigation">
+          <li class="nav-menu-item"><a href="index.html">Home</a></li>
+          <li class="nav-menu-item"><a href="pages/about.html">About</a></li>
+          <li class="nav-menu-item">
+            <a href="pages/projects.html">Projects</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="pages/contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div>
-        <img src="#" alt="A picture of Randy smiling" />
-      </div>
-      <div>
-        <h1>Hi, I am Randy</h1>
-        <p>Software developer</p>
-        <p>Self Taught</p>
-        <p>Student of Learning</p>
-      </div>
-      <button>Learn More</button>
+      <section class="hero-container">
+        <div class="hero">
+          <div class="hero-img-box">
+            <img
+              class="profile-pic"
+              src="pics/myself.jpeg"
+              alt="A picture of Randy smiling"
+            />
+          </div>
+
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hi, I am Randy</h1>
+            <div class="hero-description">
+              <p>Software developer</p>
+              <p>Self Taught</p>
+              <p>Student of Learning</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
